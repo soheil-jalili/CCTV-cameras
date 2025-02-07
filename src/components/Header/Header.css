@@ -1,16 +1,47 @@
 .header__adress__main {
+  background-color: #7b63ff;
+}
+.header__adress__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1.2rem 0;
 }
 
-
-.header__address {
-    
+.header__address,
+.header__email,
+.header__phone {
+  display: flex;
+  align-items: end;
+  gap: 0.5rem;
 }
-.header__email {
-    
+
+.header__email img,
+.header__address img {
+  width: 23px;
+  height: 23px;
 }
 .header__phone {
-    
+  align-items: center !important;
+}
+
+.header__address,
+.header__email,
+.header__phone span {
+  color: #fff;
+  font-family: "yekan-medium";
+}
+
+.header__address span,
+.header__email span,
+.header__phone span {
+  font-size: 1.2rem;
+}
+
+.header__phone span:last-child {
+  direction: ltr;
+  unicode-bidi: bidi-override;
+}
+.phone__number__first {
+  color: rgba(255, 255, 255, 0.36) !important;
 }
