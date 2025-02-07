@@ -1,0 +1,16 @@
+.header__adress__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.header__address {
+    
+}
+.header__email {
+    
+}
+.header__phone {
+    
+}

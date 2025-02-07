@@ -1,0 +1,50 @@
+:root {
+  font-family: "yekan-regular", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "yekan-regular";
+  src: url("/public/assets/fonts/yekan-regular.woff2") format("woff2"),
+    url("/public/assets/fonts/yekan-regular.woff") format("woff"),
+    url("/public/assets/fonts/yekan-regular.ttf") format("truetype"),
+    url("/public/assets/fonts/yekan-regular.eot");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "yekan-medium";
+  src: url("/public/assets/fonts/yekan-medium.woff2") format("woff2"),
+    url("/public/assets/fonts/yekan-medium.woff") format("woff"),
+    url("/public/assets/fonts/yekan-medium.ttf") format("truetype"),
+    url("/public/assets/fonts/yekan-medium.eot");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "yekan-bold";
+  src: url("/public/assets/fonts/yekan-bold.woff2") format("woff2"),
+    url("/public/assets/fonts/yekan-bold.woff") format("woff"),
+    url("/public/assets/fonts/yekan-bold.ttf") format("truetype"),
+    url("/public/assets/fonts/yekan-bold.eot");
+  font-weight: 700;
+  font-display: swap;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: var(--font-family);
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: 122.8rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
