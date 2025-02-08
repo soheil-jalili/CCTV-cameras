@@ -26,11 +26,21 @@
 
 @font-face {
   font-family: "yekan-bold";
-  src: url("/public/assets/fonts/yekan-bold.woff2") format("woff2"),
+  src: url("/assets/fonts/yekan-bold.woff2") format("woff2"),
     url("/public/assets/fonts/yekan-bold.woff") format("woff"),
     url("/public/assets/fonts/yekan-bold.ttf") format("truetype"),
     url("/public/assets/fonts/yekan-bold.eot");
   font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "maneli-regular";
+  src: url("/assets/fonts/Maneli.woff2") format("woff2"),
+    url("/assets/fonts/Maneli.woff") format("woff"),
+    url("/assets/fonts/Maneli.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
   font-display: swap;
 }
 
@@ -53,6 +63,11 @@ body {
   max-width: 122.8rem;
   margin: 0 auto;
   padding: 0 1.5rem;
+}
+
+.secondary__container {
+  max-width: 101.073rem;
+  margin: 0 auto;
 }
 
 button {

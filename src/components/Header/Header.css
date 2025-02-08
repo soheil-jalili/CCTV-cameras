@@ -183,6 +183,9 @@
 .nav {
   padding-block: 3rem !important;
   border-bottom: 2px solid #ececec;
+
+  /* todo temp */
+  margin-bottom: 6rem;
 }
 
 .nav__wrapper {
