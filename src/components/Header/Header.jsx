@@ -108,7 +108,9 @@ const MainHeader = ({ children }) => {
 const Logo = () => {
   return (
     <>
-      <p className="logo">Logo</p>
+      <Link to={"/"} className="logo">
+        Logo
+      </Link>
     </>
   );
 };
@@ -121,6 +123,7 @@ const Search = () => {
           <button onClick={() => setIsOpen(!isOpen)}>
             دسته بندی
             <svg
+              className={isOpen ? "btn__cat-active" : ""}
               width="16"
               height="16"
               viewBox="0 0 16 16"

@@ -1,0 +1,89 @@
+.features {
+  padding: 3rem 0 4rem;
+}
+
+.swiper-wrapper {
+  display: flex !important;
+  justify-content: center;
+  gap: 5.4rem;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 3.964rem;
+  height: 3.964rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #656565;
+  border-radius: 50%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px;
+  color: #656565;
+}
+
+.swiper-button-next.swiper-button-disabled::after,
+.swiper-button-prev.swiper-button-disabled::after {
+  color: #656565;
+}
+
+.swiper-button-next:not(.swiper-button-disabled)::after,
+.swiper-button-prev:not(.swiper-button-disabled)::after {
+  color: #656565;
+}
+
+.swiper-slide {
+  width: 85.55px !important;
+  height: 152.14px !important;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+.feature__box {
+  background-color: #fff;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 1.65rem;
+  -webkit-border-radius: 1.65rem;
+  -moz-border-radius: 1.65rem;
+  -ms-border-radius: 1.65rem;
+  -o-border-radius: 1.65rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  width: 8.55rem;
+  height: 8.34rem;
+  -webkit-transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  -moz-transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  -ms-transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  -o-transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin: 0; 
+  padding: 0;
+}
+.feature__box:hover {
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.feature__box img {
+  width: 55.05px;
+  height: 55.05px;
+  filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%)
+    hue-rotate(0deg) brightness(0%) contrast(100%);
+}
+
+.feature__title {
+  font-family: "yekan-bold";
+
+  font-size: 1.174rem;
+}
