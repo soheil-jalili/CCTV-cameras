@@ -154,6 +154,9 @@
 
 .shopping__cart {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .shopping__cart__icon-dot {
@@ -174,4 +177,46 @@
 
 .shopping__cart__icon-dot span {
   margin-top: 0.4rem;
+}
+
+/* Navbar */
+.nav {
+  padding-block: 3rem !important;
+  border-bottom: 2px solid #ececec;
+}
+
+.nav__wrapper {
+  display: flex;
+  align-items: center;
+}
+.menu__desk {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.menu__desk__link:link,
+.menu__desk__link:visited {
+  color: #43454d;
+  font-size: 1.5rem;
+}
+
+.nav__btn_category {
+  background-color: #7b63ff;
+  max-width: 20.669rem;
+  margin-left: 2rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 0.7rem;
+  -webkit-border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  -ms-border-radius: 0.7rem;
+  -o-border-radius: 0.7rem;
+
+  color: #fff;
+  font-family: "yekan-bold";
+  font-weight: 800;
+
+  font-size: 1.453rem;
 }

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -10,7 +11,33 @@ const Header = () => {
         <Search />
         <AuthAndShoppingCart />
       </MainHeader>
+
+      <Navbar>
+        <MenuDesktop />
+      </Navbar>
     </header>
+  );
+};
+
+const NavBtnCat = () => {
+  return (
+    <>
+      <button className="nav__btn_category">
+        <svg
+          width="13"
+          height="12"
+          viewBox="0 0 13 12"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1.1875 2.35938C0.941406 2.35938 0.75 2.16797 0.75 1.92188V0.828125C0.75 0.609375 0.941406 0.390625 1.1875 0.390625H12.5625C12.7812 0.390625 13 0.609375 13 0.828125V1.92188C13 2.16797 12.7812 2.35938 12.5625 2.35938H1.1875ZM1.1875 6.73438C0.941406 6.73438 0.75 6.54297 0.75 6.29688V5.20312C0.75 4.98438 0.941406 4.76562 1.1875 4.76562H12.5625C12.7812 4.76562 13 4.98438 13 5.20312V6.29688C13 6.54297 12.7812 6.73438 12.5625 6.73438H1.1875ZM1.1875 11.1094C0.941406 11.1094 0.75 10.918 0.75 10.6719V9.57812C0.75 9.35938 0.941406 9.14062 1.1875 9.14062H12.5625C12.7812 9.14062 13 9.35938 13 9.57812V10.6719C13 10.918 12.7812 11.1094 12.5625 11.1094H1.1875Z"
+            fill="white"
+          />
+        </svg>
+        دسـته بـندی محـصولات
+      </button>
+    </>
   );
 };
 
@@ -93,7 +120,6 @@ const Search = () => {
         <div className="category__btn">
           <button onClick={() => setIsOpen(!isOpen)}>
             دسته بندی
-            
             <svg
               width="16"
               height="16"
@@ -193,8 +219,46 @@ const AuthAndShoppingCart = () => {
           />
         </svg>
         <div className="shopping__cart__icon-dot">
-          <span>45</span>
+          <span>44</span>
         </div>
+      </div>
+    </div>
+  );
+};
+
+// Navbar
+
+const Navbar = ({ children }) => {
+  return <nav className="nav">{children}</nav>;
+};
+
+const MenuDesktop = () => {
+  return (
+    <div className="container">
+      <div className="nav__wrapper">
+        <NavBtnCat />
+        <ul className="menu__desk">
+          <li className="menu__desk__item">
+            <Link to={""} className="menu__desk__link">
+              صفحه نخست
+            </Link>
+          </li>
+          <li className="menu__desk__item">
+            <Link to={""} className="menu__desk__link">
+              آرشیو بلاگ
+            </Link>
+          </li>
+          <li className="menu__desk__item">
+            <Link to={""} className="menu__desk__link">
+              فروشگاه
+            </Link>
+          </li>
+          <li className="menu__desk__item">
+            <Link to={""} className="menu__desk__link">
+              سوالات متداول
+            </Link>
+          </li>
+        </ul>
       </div>
     </div>
   );

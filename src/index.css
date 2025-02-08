@@ -1,5 +1,5 @@
 :root {
-  font-family: "yekan-regular", sans-serif;
+  font-family: "yekan-medium", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 }
@@ -68,3 +68,10 @@ input::placeholder {
   font-size: 1.2rem;
 }
 
+a:visited,
+a:link {
+  text-decoration: none !important;
+}
+li {
+  list-style-type: none;
+}
