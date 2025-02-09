@@ -1,0 +1,185 @@
+.latest {
+  background-color: #fff;
+  box-shadow: 1px 1px 10px 0px #cacaca;
+  height: 61.8rem;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  margin-bottom: 8rem !important;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+/* amazing */
+.amazing {
+  background-color: #ff3d3d;
+  border-radius: 2.255rem;
+  -webkit-border-radius: 2.255rem;
+  -moz-border-radius: 2.255rem;
+  -ms-border-radius: 2.255rem;
+  -o-border-radius: 2.255rem;
+  width: 336px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+  position: relative;
+}
+
+.amazing__text {
+  font-size: 2.255rem;
+  font-family: "yekan-bold";
+  color: #fff;
+}
+
+.amazing__content {
+  width: 20.858rem;
+  height: 20.858rem;
+  margin: 3rem auto 2rem;
+}
+
+.amazing__title {
+  font-family: "yekan-bold";
+  font-size: 1.818rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.amazing__discount {
+  font-family: "yekan-bold";
+  font-size: 2.108rem;
+  color: rgba(255, 255, 255, 0.35);
+
+  margin-bottom: 0.5rem;
+}
+
+.amazing__price {
+  font-family: "yekan-bold";
+  font-size: 2.108rem;
+  color: #fff;
+}
+
+/* Latest Appbar */
+.latest__appbar {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+  border-bottom: 2px solid #cacaca;
+
+  padding-bottom: 4rem;
+  margin-left: 2rem;
+
+  margin-bottom: 4rem;
+}
+
+.latest__appbar__title {
+  font-size: 2.5rem;
+  color: #3c3c3c;
+  font-family: "yekan-bold";
+}
+.view__all__btn:link,
+.view__all__btn:visited {
+  margin-right: auto;
+  color: #7b63ff;
+  font-family: "yekan-bold";
+  font-size: 2.5rem;
+}
+
+.view__all__btn svg {
+  vertical-align: middle;
+}
+
+/* all products */
+
+.all__products {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+
+/* products */
+
+.products__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 6rem 0;
+}
+.products {
+  width: 22.811rem;
+  height: 361.42px;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px 0px #cacaca;
+  border-radius: 0.889rem;
+  -webkit-border-radius: 0.889rem;
+  -moz-border-radius: 0.889rem;
+  -ms-border-radius: 0.889rem;
+  -o-border-radius: 0.889rem;
+  position: relative;
+}
+
+.products__main img {
+  width: 134.88px;
+  height: 144.84px;
+}
+.prodcut__discount {
+  background-color: #7b63ff;
+  color: #fff;
+  border-radius: 0.691rem;
+  -webkit-border-radius: 0.691rem;
+  -moz-border-radius: 0.691rem;
+  -ms-border-radius: 0.691rem;
+  -o-border-radius: 0.691rem;
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 1.067rem;
+}
+.product__title {
+  font-size: 1.319rem;
+  color: #43454d;
+  font-family: "yekan-medium";
+  margin-bottom: 0.7rem;
+}
+
+.product__desc {
+  font-size: 1.319rem;
+  color: #8d8d8d;
+  margin-bottom: 1.8rem;
+}
+
+.product__title {
+  font-family: "yekan-bold";
+  font-size: 1.679rem;
+  color: #43454d;
+}
+
+.products__btn {
+  position: absolute;
+  bottom: 1.2rem;
+  left: 0;
+  right: 0;
+  height: 3.357rem;
+  background-color: #7b63ff;
+  color: #fff;
+  font-size: 1.319rem;
+  border-radius: 0.79rem;
+  -webkit-border-radius: 0.79rem;
+  -moz-border-radius: 0.79rem;
+  -ms-border-radius: 0.79rem;
+  -o-border-radius: 0.79rem;
+
+  margin: 0 1rem;
+}

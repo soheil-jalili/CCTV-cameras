@@ -24,12 +24,7 @@ export default function Features() {
   return (
     <section className="features">
       <div className="secondary__container">
-        <Swiper
-          navigation={true}
-          modules={[Navigation]}
-          loop={false}
-          slidesPerView={1}
-        >
+        <Swiper navigation={true} modules={[Navigation]} slidesPerView={"auto"}>
           {features.map((item, index) => (
             <SwiperSlide key={item.id}>
               <div
