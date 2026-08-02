@@ -1,5 +1,5 @@
+import Link from "next/link";
 import "./Poster.css";
-import { Link } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 
 export default function Poster() {
@@ -17,7 +17,7 @@ export default function Poster() {
 
             <div className="poster__buy">
               <p className="btn__buy">خرید</p>
-              <Link className="poster__btn__buy-icon" to={""}>
+              <Link className="poster__btn__buy-icon" href={""}>
                 <FaArrowLeft color="#7b63ff" />
               </Link>
             </div>

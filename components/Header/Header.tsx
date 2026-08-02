@@ -1,6 +1,7 @@
-import { useState } from "react";
+'use client'
+import Link from "next/link";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Header = () => {
   return (
@@ -108,7 +109,7 @@ const MainHeader = ({ children }) => {
 const Logo = () => {
   return (
     <>
-      <Link to={"/"} className="logo">
+      <Link href={"/"} className="logo">
         Logo
       </Link>
     </>
@@ -242,22 +243,22 @@ const MenuDesktop = () => {
         <NavBtnCat />
         <ul className="menu__desk">
           <li className="menu__desk__item">
-            <Link to={""} className="menu__desk__link">
+            <Link href={""} className="menu__desk__link">
               صفحه نخست
             </Link>
           </li>
           <li className="menu__desk__item">
-            <Link to={""} className="menu__desk__link">
+            <Link href={""} className="menu__desk__link">
               آرشیو بلاگ
             </Link>
           </li>
           <li className="menu__desk__item">
-            <Link to={""} className="menu__desk__link">
+            <Link href={""} className="menu__desk__link">
               فروشگاه
             </Link>
           </li>
           <li className="menu__desk__item">
-            <Link to={""} className="menu__desk__link">
+            <Link href={""} className="menu__desk__link">
               سوالات متداول
             </Link>
           </li>

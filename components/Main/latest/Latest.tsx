@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
 import { FaAngleLeft } from "react-icons/fa";
 
 import "./Latest.css";
+import Link from "next/link";
 
 export default function Latest() {
   return (
@@ -52,7 +52,7 @@ const LatestAppbar = () => {
       <img src="/public/assets/icons/amazing_bed.svg" alt="Bed" />
       <p className="latest__appbar__title">جدیدترین دیتا پروژکتور ها</p>
 
-      <Link to={"/"} className="view__all__btn">
+      <Link href={"/"} className="view__all__btn">
         مشاهده همه <FaAngleLeft size={20.67} />
       </Link>
     </div>
